@@ -1,0 +1,12 @@
+<?php
+/** @var \Fiodarau\Demo\Block\Adminhtml\Category\Listing $block */
+?>
+<ul>
+    <?php
+    /** @var \Magento\Catalog\Model\Category $category */
+    foreach ($block->getFilteredCategories() as $category): ?>
+        <li>
+            <h3><?= $category->getName() ?></h3>
+        </li>
+    <?php endforeach; ?>
+</ul>

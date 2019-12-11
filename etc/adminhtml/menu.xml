@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <menu>
+        <add id="Fiodarau_Demo::test" title="Fiodarau Demo" translate="title" module="Fiodarau_Demo" sortOrder="70" parent="Magento_Backend::system" resource="Fiodarau_Demo::fiodarau"/>
+        <add id="Fiodarau_Demo::test_categories" title="Test" translate="title" module="Fiodarau_Demo" sortOrder="10" parent="Fiodarau_Demo::test" action="fiodarau_demo/category" resource="Fiodarau_Demo::categories"/>
+    </menu>
+</config>

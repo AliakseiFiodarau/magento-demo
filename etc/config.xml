@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <fiodarau_demo>
+            <category>
+                <filter>A</filter>
+            </category>
+            <product>
+                <review_count>1</review_count>
+            </product>
+        </fiodarau_demo>
+    </default>
+</config>
